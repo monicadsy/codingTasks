@@ -10,8 +10,8 @@ I uploaded some of my coding tasks which I hope could help you understand what c
 - 📚 Task 9: OOP Classes: model and solve complex real-world problems where the objects in your code map to real-world objects.
 - 📚 Task 17 Unit Testing:  a crucial aspect of software development to ensure codes work properly
 
-How to use it? Copy past into VS code after setting up VS code and installing latest Python
-
+How to use the code? 
+- Copy + paste into VS code after setting up VS code and installing the latest Python - please refer to the image for more info.
 
 
 ⭐️ Inspired from CoGrammer Software Engineering Bootcamp
