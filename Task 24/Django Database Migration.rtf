@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Q15 The procedures for performing Django database migrations to a server-based relational database like MariaDB. \
+\
+
+\f1 Prerequisites: Django application set up, MariaDB Server installed and running on the server, create a database and a user in MariaDB\
+\
+Step 1: Install MariaDB Connector for Python\
+Django requires a database connector to communicate with MariaDB. Use mysqlclient or mariadb. Install it using pip.\
+\
+Step 2: Configure Django Settings\
+Update Django project\'a1\'afs setting.py to use MariaDB\
+\
+Step 3 Create initial Migrations using python manage.py makemigrations\
+This creates migration files based on the models defined in the application\
+\
+Step 4 Apply Migrations\
+Apply the migrations to your MariaDB database using the migrate command. This command execute the SQL commands defined in the migration files and applies them to the database\
+\
+Step 5 Verify Database Connection\
+Ensure Django applicatin connect to the MariaDB database and the tables have been created correctly by running the Django development server and checking the application\
+\
+Step 6 Handle Future Migrations\
+Create and apply new migrations for the future purpose\
+\
+In addition, it is good to regularly back up MariaDB database to avoid data loss, perform migrations in a testing environment before apply them to the production database and keep good documentation for all changes and migrations for the project.\
+\
+\
+\
+}
