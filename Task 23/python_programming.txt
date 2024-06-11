@@ -1,5 +1,0 @@
-55,Carl Davis,61
-66,Dennis Fredrickson,88
-77,Jane Richards,78
-12,Peyton Sawyer,45
-2,Lucas Brooke,99
