@@ -1,3 +1,0 @@
-[Flake8]
-exclude = .git,__pycache__,venv
-max-line-length = 80
